@@ -655,7 +655,7 @@ if {[catch {
       puts "Please provide a trajectory file for the simulation to calculate binding values"
     }
     # end if for checking that we have starting structure and trajectory files
-  } 
+   
   
   if { $::highAff::bv_cutoff != 0} {
     cutoffHighAffinityResidues $::highAff::bv_cutoff
